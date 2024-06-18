@@ -1,0 +1,667 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.contain {
+    width: 80%;
+    margin: 0px auto 7% auto;
+}
+
+.login {
+    padding: 10px 20px;
+    background-color: #437EF7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.signup {
+    padding: 10px 20px;
+    color: #437EF7;
+    background-color: white;
+    text-decoration: none;
+}
+
+.formm input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+/*Start header Section*/
+.head {
+    width: 80%;
+    margin: 15px auto 10% auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.head nav .section,
+.head nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 25px;
+}
+
+.head nav .section {
+    margin-left: 0;
+}
+
+.head .section ul li a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #272D37;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+
+}
+
+/*End header Section*/
+
+/*Start hype Section*/
+.sentences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sentences h6 {
+    color: #437EF7;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.sentences h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+/*End hype Section*/
+
+/*Start welcome Section*/
+.welcome {
+    background: #2B63D9;
+    margin-bottom: 5%;
+}
+
+.email {
+    display: flex;
+    justify-content: space-around;
+}
+
+.email .block {
+    width: 50%;
+    padding: 5% 5%;
+}
+
+.block h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.block p {
+    color: #B1CCFB;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formm {
+    display: flex;
+}
+
+.input-section p {
+    color: white;
+    margin-top: 2%;
+}
+
+.formm .login {
+    border-radius: 0px 8px 8px 0px;
+}
+
+/*End welcome Section*/
+
+/*Start Photos Section*/
+.blog {
+    position: relative;
+}
+
+.blog h2::after {
+    position: absolute;
+    content: "";
+    width: 138px;
+    bottom: 94%;
+    height: 5px;
+    background-color: #d9d9d9;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Photos .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reach,
+.faster {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.Photos h2 {
+    color: #272D37;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Photos p {
+    color: #4F5B63;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Photos span {
+    color: #5F6D7E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.reach h2 {
+    padding: 20px 0;
+}
+
+.reach p {
+    padding: 20px 0;
+}
+
+.faster .card {
+    display: flex;
+    padding: 15px 0;
+}
+
+.faster .card:first-child {
+    padding: 0 0 15px 0;
+}
+
+.card .enter-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+/*End Photos Section*/
+
+/*Start Blog Section*/
+.blog h2 {
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 32px;
+    font-weight: 700;
+    color: #272D37;
+}
+
+.text span {
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #5F6D7E;
+    font-weight: 500;
+}
+
+.cards .text h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #272D37;
+    padding-bottom: 15px;
+}
+
+.cards .text a {
+    color: #437EF7;
+    text-decoration: none;
+}
+
+.cards .photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .photo {
+    width: calc(33.33% - 20px);
+    border-radius: 20px;
+    padding: 0 15px;
+}
+
+.cards .row-one {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.cards .row-two {
+    display: flex;
+}
+
+/*End Blog Section*/
+
+/*Start the "last-section" Section*/
+.last-section {
+    background: #2B63D9;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 3% 0;
+}
+
+.last span,
+h2 {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.last h2 {
+    padding: 30px 0;
+    font-size: 32px;
+}
+
+.last .login {
+    color: #437EF7;
+    background-color: white;
+}
+
+/*End the "last-section" Section*/
+
+/*Start footer Section*/
+footer {
+    background-color: #151B28;
+}
+
+.footer-section {
+    margin-bottom: 0;
+    display: flex;
+    padding: 5% 0;
+    border-bottom: 1px #A5ACBA solid;
+}
+
+.info,
+.list {
+    width: 50%;
+}
+
+.info p {
+    padding: 5% 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info input {
+    background-color: #2C3444;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list ul {
+    list-style-type: none;
+    color: white;
+    font-weight: 300;
+}
+
+.list ul span {
+    font-weight: 600;
+    margin: 35px 0;
+    font-size: 16px;
+}
+
+.list ul li {
+    margin: 25px 0;
+}
+
+.list ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #A5ACBA;
+    text-decoration: none;
+}
+
+#foot {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 400;
+    color: #A5ACBA;
+    text-align: center;
+    display: inline-block;
+}
+
+/*End footer Section*/
+
+@media (max-width:550px) {
+    .contain {
+        width: 90%;
+    }
+
+    .header {
+        padding: 1px;
+    }
+
+    nav #icon- {
+        display: flex;
+        align-items: center;
+    }
+
+    .back-colorr {
+        width: 100%;
+        background-color: #ddddddf1;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .section ul a,
+    nav .buttons {
+        display: none;
+    }
+
+    .hype .sentences h6 {
+        font-size: 14px;
+    }
+
+    .hype .sentences h1 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    .responsive-475px {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .blog h2::after {
+        display: none;
+    }
+
+    .Photos .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Photos .reach,
+    .Photos .faster {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .Photos .faster .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faster .card .enter-card {
+        padding: 10px 0 0 0;
+    }
+
+    .responsive-475px .welcome .email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome .email .block {
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .welcome .email .input-section .formm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome .email .input-section .formm input[type="email"] {
+        width: 100%;
+        border-radius: 7px;
+        margin-bottom: 20px;
+    }
+
+    .welcome .email .input-section .formm .login {
+        border-radius: 7px;
+        text-align: center;
+    }
+
+    .welcome .email .input-section p {
+        display: none;
+    }
+
+    .blog .cards .row-one,
+    .blog .cards .row-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog .cards .photo {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .blog .cards .photo .text {
+        padding-bottom: 10px;
+    }
+
+    .last .btn-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .last-section .last h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #bt2 {
+        background-color: #437EF7;
+        color: white;
+        margin-top: 15px;
+    }
+
+    .footer-section {
+        flex-direction: column;
+    }
+
+    .footer-section .info,
+    .footer-section .list {
+        width: 100%;
+    }
+
+    .footer-section .info {
+        margin-bottom: 30px;
+    }
+
+    .list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .list ul {
+        width: 50%;
+    }
+
+    .list ul:last-child {
+        width: 100%;
+    }
+
+    .footer-section .list .lastul {
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 550px) and (max-width: 950px) {
+    .contain {
+        width: 95%;
+    }
+
+    .header {
+        padding: 1px;
+    }
+
+    nav #icon- {
+        display: flex;
+        align-items: center;
+    }
+
+    .back-colorr {
+        width: 100%;
+        background-color: #ddddddf1;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .section ul a,
+    nav .buttons {
+        display: none;
+    }
+
+    .hype .sentences h6 {
+        font-size: 14px;
+    }
+
+    .Photos .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsive-475px {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Photos .reach,
+    .Photos .faster {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .row-one,
+    .row-two {
+        justify-content: space-between;
+    }
+
+    .faster .card .enter-card p {
+        padding: 10px 0;
+    }
+
+    .responsive-475px .welcome .email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome .email .block {
+        width: 100%;
+        padding: 40px 15px;
+    }
+
+    .formm input[type="email"] {
+        width: 80%;
+    }
+
+    .formm {
+        justify-content: center;
+    }
+
+    .input-section p {
+        font-size: 14px;
+        margin: 1% 0% 0% 4%;
+    }
+
+    .last .btn-div {
+        display: flex;
+        width: 35%;
+        justify-content: space-around;
+    }
+
+    #bt2 {
+        background-color: #437EF7;
+        color: white;
+    }
+
+    .footer-section {
+        flex-direction: column;
+    }
+
+    .footer-section .info,
+    .footer-section .list {
+        width: 100%;
+    }
+
+    .list {
+        padding-top: 5%;
+    }
+
+    .upper-links {
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+    }
+}
+
+@media (min-width:950px) {
+    #bt2 {
+        display: none;
+    }
+
+    nav #icon- {
+        display: none;
+    }
+
+    .list .upper-links {
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+    }
+}
